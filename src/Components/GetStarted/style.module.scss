@@ -1,0 +1,88 @@
+.getStartedContainer {
+  .btnContainer {
+    margin: 10px auto;
+    text-align: center;
+  }
+  .suppPara {
+    text-align: center;
+    color: #331b3b;
+  }
+  .matterHead {
+    text-align: center;
+    color: #331b3b;
+    padding: 10px 250px;
+    @media (max-width: 1020px) {
+      padding: 10px 40px;
+    }
+  }
+  .greatHead {
+    text-align: center;
+    color: #331b3b;
+    padding: 10px 300px;
+    @media (max-width: 1020px) {
+      padding: 10px 40px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.marketingContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 100%;
+  margin: 5px 0px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+  .marketing {
+    max-width: 24.5%;
+    flex: 0 0 80%;
+    padding: 20px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #331b3b;
+    border-radius: 12px;
+
+    @media (max-width: 1020px) {
+      max-width: 50%;
+      flex: 0 0 60%;
+    }
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 80%;
+      margin: 10px;
+    }
+    .marketPara {
+      padding-top: 10px;
+    }
+  }
+  .Lastmarketing {
+    max-width: 24.5%;
+    flex: 0 0 80%;
+    padding: 20px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #331b3b !important;
+    color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    @media (max-width: 1020px) {
+      max-width: 50%;
+      flex: 0 0 60%;
+    }
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 80%;
+      margin: 10px;
+    }
+    .marketPara {
+      padding-top: 10px;
+    }
+  }
+}
+
+.btnContainer {
+  margin: 60px auto;
+  text-align: center;
+}

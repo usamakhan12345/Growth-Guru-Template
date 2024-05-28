@@ -1,0 +1,36 @@
+.footerContainer {
+  background-color: #d5d1a9;
+  margin-top: -45px;
+  z-index: 0;
+  padding: 20px 25px;
+  .footerLogoContainer {
+    padding: 150px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+    .footerImgCon {
+      text-align: center;
+    }
+
+    .listItem {
+      display: inline;
+      list-style-type: none;
+    }
+    .listItem > li {
+      display: inline;
+      margin-right: 15px;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+  }
+}

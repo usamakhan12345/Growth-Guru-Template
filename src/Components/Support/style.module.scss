@@ -1,0 +1,93 @@
+.supportContainer {
+  width: 100%;
+  display: flex;
+  padding: 50px 0px;
+  margin-top: 50px;
+  justify-content: space-between;
+  position: relative;
+  min-height: 600px;
+  flex-wrap: wrap;
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+  .suppContent {
+    max-width: 50%;
+    flex: 0 0 45%;
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+
+    .suppPara {
+      color: #331b3ba8;
+    }
+  }
+  .suppImage {
+    max-width: 50%;
+    flex: 0 0 45%;
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 70%;
+    }
+    .supImg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.facilitiesContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -280px;
+  position: relative;
+  z-index: 4;
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-top: 0px;
+    // justify-content: center;
+    align-items: center;
+  }
+  .firstFaci {
+    max-width: 50%;
+    flex: 0 0 48%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px 20px;
+    margin-top: 15px;
+    @media (max-width: 460px) {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+    .suppImgCon {
+      padding: 10px 10px;
+      background-color: #838e5580;
+      width: fit-content;
+      border-radius: 12px;
+
+      .supImg {
+        height: 30px;
+        width: 30px;
+      }
+    }
+    .talentContent {
+      color: #331b3ba8;
+      padding: 2px 2px;
+    }
+    .talentHead {
+      padding: 2px 2px;
+    }
+  }
+  .secondFaci {
+    max-width: 50%;
+    flex: 0 0 48%;
+    background-color: #ffffff;
+
+    @media (max-width: 767px) {
+      max-width: 100%;
+    }
+  }
+}

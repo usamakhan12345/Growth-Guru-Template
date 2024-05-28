@@ -1,0 +1,57 @@
+.rohan {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 999;
+  .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+
+    .menuIcon {
+      font-size: 40px !important;
+      cursor: pointer;
+      color: #331b3b;
+      display: none;
+      :active {
+        opacity: 0.7;
+      }
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+
+    .logoContainer {
+      max-width: 23.33%;
+    }
+
+    .listContainer {
+      width: 33.33%;
+      // display: flex;
+      justify-content: space-between;
+
+      .headerList {
+        display: flex;
+        justify-content: space-between;
+      }
+      .headerList > li {
+        list-style-type: none;
+        // margin-right: 10px;/
+        text-align: center;
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+
+    .headerBtn {
+      max-width: 33.33%;
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+}

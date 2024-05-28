@@ -1,0 +1,31 @@
+.countContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  .count {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+    padding: 10px 65px;
+    @media (max-width: 1020px) {
+      padding: 10px 35px;
+    }
+    @media (max-width: 767px) {
+      padding: 5px 15px;
+      width: 100%;
+      flex: 0 0 100%;
+    }
+    .head {
+      color: #838e55;
+    }
+
+    .countPara {
+      margin: 40px 0px;
+      color: #331b3ba8;
+      @media (max-width: 767px) {
+        margin: 15px 15px;
+      }
+    }
+  }
+}

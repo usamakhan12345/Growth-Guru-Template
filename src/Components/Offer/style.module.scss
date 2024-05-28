@@ -1,0 +1,31 @@
+.offerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  .offer {
+    max-width: 30.33%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 24px 20px;
+    flex: 0 0 30.33%;
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+    .offerheading {
+      background-color: #838e5580;
+      width: fit-content;
+      padding: 5px 5px !important;
+    }
+    .para {
+      padding: 8px 0px;
+    }
+    .line1 {
+      color: #331b3ba8;
+    }
+    .line2 {
+      color: #838e55;
+    }
+  }
+}

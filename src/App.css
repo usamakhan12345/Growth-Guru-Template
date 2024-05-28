@@ -1,0 +1,154 @@
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 31px;
+}
+h6 {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.p-700-30 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.p-700-13 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+.p-700-18 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.p-700-21 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 31px;
+}
+
+.p-600-16 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p-500-22 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.p-400-21 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.p-500-17 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+.p-500-28 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 72px;
+}
+.p-300-16 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1210px) {
+  h1 {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 66px;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 62px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  h5 {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 29px;
+  }
+  h6 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 66px;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 62px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  h5 {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 29px;
+  }
+  h6 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+  }
+}

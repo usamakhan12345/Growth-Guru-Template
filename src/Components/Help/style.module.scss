@@ -1,0 +1,41 @@
+.helpContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  margin-top: 70px;
+  align-items: center;
+  background-color: #c2bbc4;
+  border-radius: 20px;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+  .helpContent {
+    max-width: 60%;
+    flex: 0 0 60%;
+    color: #331b3b;
+    @media (max-width: 767px) {
+      max-width: 100%;
+    }
+  }
+  .helpBtnContainer {
+    // max-width: 20%;
+    flex: 0 0 20%;
+  }
+}
+
+.helpContentContainer {
+  width: 70%;
+  margin-top: 50px;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  .helpPara {
+    width: 80%;
+    color: #331b3ba8;
+    margin-top: 15px;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
